@@ -1,0 +1,10 @@
+{
+    "source": ["aws.codecommit"],
+    "detail-type": ["CodeCommit Repository State Change"],
+    "resources": ["arn:aws:codecommit:eu-central-1:489994096722:ApprokoWebapp"],
+    "detail": {
+      "event": ["referenceCreated", "referenceUpdated"],
+      "referenceType": ["branch"],
+      "referenceName": ["master"]
+    }
+  }
